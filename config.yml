@@ -1,0 +1,35 @@
+# 設定ファイル
+# 本の名前
+bookname: iOS_Unit_Test_which_starts_with_gap_time
+# 記述言語
+language: ja
+# 書名
+booktitle: 隙間時間で始めるiOSのUnit Test
+# 著者名
+aut: [神威計画]
+# 刊行日
+date: 2018-10-08
+# 発行年月
+history: [["2018-10-08 技術書典5 版 v1.0.0"]]
+# 権利表記
+rights: (C) 2018 Kamui Project
+# 固有IDに使用するドメイン
+urid: urn:uid:https://github.com/tony1224/UnitTestDocument
+
+# 目次として抽出する見出しレベル
+toclevel: 3
+# 本文でセクション番号を表示する見出しレベル
+secnolevel: 2
+# ページ送りの方向
+direction: "rtl"
+
+# 紙面のデザイン
+texstyle: techbooster-doujin
+texdocumentclass: ["jsbook", "b5j,twoside,openany,uplatex"]
+
+# サイズ指定
+texdocumentclass: ["jsbook", "b5j"]
+
+# その他設定できるものが多いらしいので困ったら以下を参照
+# RE:VIEW 公式 https://github.com/kmuto/review/blob/master/doc/sample.yml
+# WIKI: https://github.com/kmuto/review/wiki/config.yml
