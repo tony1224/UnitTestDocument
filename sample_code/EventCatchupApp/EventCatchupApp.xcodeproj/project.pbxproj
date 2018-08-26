@@ -21,6 +21,18 @@
 		531B1CBC21240D5800661098 /* EventContext.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 531B1CA621240D5700661098 /* EventContext.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		531B1CD12124170600661098 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531B1CD02124170600661098 /* SearchViewController.swift */; };
 		531B1CD32124171100661098 /* SearchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531B1CD22124171100661098 /* SearchViewController.storyboard */; };
+		53EDB4DC2132A11700A44D55 /* EventComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDB4DB2132A11700A44D55 /* EventComponent.swift */; };
+		53EDB4DE2132A12200A44D55 /* EventComponentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDB4DD2132A12200A44D55 /* EventComponentType.swift */; };
+		53EDB4E02132A9B300A44D55 /* GetEventInfoUseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDB4DF2132A9B300A44D55 /* GetEventInfoUseCaseType.swift */; };
+		53EDB4E32132A9C300A44D55 /* GetEventInfoUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDB4E22132A9C300A44D55 /* GetEventInfoUseCase.swift */; };
+		53EDB4E52132AA2D00A44D55 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDB4E42132AA2D00A44D55 /* Event.swift */; };
+		53EDB4EF2132AFCF00A44D55 /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 53EDB4ED2132AFCF00A44D55 /* Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EDB4F22132AFCF00A44D55 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53EDB4EB2132AFCF00A44D55 /* Shared.framework */; };
+		53EDB4F32132AFCF00A44D55 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53EDB4EB2132AFCF00A44D55 /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		53EDB4F92132AFEB00A44D55 /* Identifierable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDB4F72132AFEB00A44D55 /* Identifierable.swift */; };
+		53EDB4FA2132AFEB00A44D55 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDB4F82132AFEB00A44D55 /* Identifier.swift */; };
+		53EDB4FC2132E4EE00A44D55 /* EventRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDB4FB2132E4EE00A44D55 /* EventRepositoryType.swift */; };
+		53EDB4FE2132E50200A44D55 /* EventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDB4FD2132E50200A44D55 /* EventRepository.swift */; };
 		879D41772AC36E07AE19A830 /* Pods_EventContextTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7501A72563162CCF6BB9388E /* Pods_EventContextTests.framework */; };
 		A6D147CA7296479C44D592E5 /* Pods_EventContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 063CBD537B5E850827C00687 /* Pods_EventContext.framework */; };
 		CFC01610484605BE679049C4 /* Pods_EventCatchupAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E4BA23BC5A3EA0A39E2D994 /* Pods_EventCatchupAppTests.framework */; };
@@ -55,6 +67,13 @@
 			remoteGlobalIDString = 531B1CA521240D5700661098;
 			remoteInfo = EventContext;
 		};
+		53EDB4F02132AFCF00A44D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 531B1C762123CFA400661098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53EDB4EA2132AFCF00A44D55;
+			remoteInfo = Shared;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +84,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				531B1CBC21240D5800661098 /* EventContext.framework in Embed Frameworks */,
+				53EDB4F32132AFCF00A44D55 /* Shared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +115,18 @@
 		531B1CB721240D5800661098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		531B1CD02124170600661098 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		531B1CD22124171100661098 /* SearchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchViewController.storyboard; sourceTree = "<group>"; };
+		53EDB4DB2132A11700A44D55 /* EventComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventComponent.swift; sourceTree = "<group>"; };
+		53EDB4DD2132A12200A44D55 /* EventComponentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventComponentType.swift; sourceTree = "<group>"; };
+		53EDB4DF2132A9B300A44D55 /* GetEventInfoUseCaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEventInfoUseCaseType.swift; sourceTree = "<group>"; };
+		53EDB4E22132A9C300A44D55 /* GetEventInfoUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEventInfoUseCase.swift; sourceTree = "<group>"; };
+		53EDB4E42132AA2D00A44D55 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		53EDB4EB2132AFCF00A44D55 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EDB4ED2132AFCF00A44D55 /* Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
+		53EDB4EE2132AFCF00A44D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53EDB4F72132AFEB00A44D55 /* Identifierable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifierable.swift; sourceTree = "<group>"; };
+		53EDB4F82132AFEB00A44D55 /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
+		53EDB4FB2132E4EE00A44D55 /* EventRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRepositoryType.swift; sourceTree = "<group>"; };
+		53EDB4FD2132E50200A44D55 /* EventRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRepository.swift; sourceTree = "<group>"; };
 		5FFAA187213B169CA33EF23A /* Pods-EventCatchupApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventCatchupApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventCatchupApp/Pods-EventCatchupApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7501A72563162CCF6BB9388E /* Pods_EventContextTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventContextTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		925A180A58E042B52C82128A /* Pods-EventCatchupAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventCatchupAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventCatchupAppTests/Pods-EventCatchupAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				531B1CBB21240D5800661098 /* EventContext.framework in Frameworks */,
+				53EDB4F22132AFCF00A44D55 /* Shared.framework in Frameworks */,
 				2064366A5B5CA87603A11591 /* Pods_EventCatchupApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +172,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53EDB4E82132AFCF00A44D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -149,6 +189,7 @@
 				531B1C952123CFA600661098 /* EventCatchupAppTests */,
 				531B1CA721240D5700661098 /* EventContext */,
 				531B1CB421240D5800661098 /* EventContextTests */,
+				53EDB4EC2132AFCF00A44D55 /* Shared */,
 				531B1C7F2123CFA400661098 /* Products */,
 				B6A04BD91FAD1881AF8A1A84 /* Pods */,
 				6A4133456FA5A9FA7A34BDE1 /* Frameworks */,
@@ -162,6 +203,7 @@
 				531B1C922123CFA600661098 /* EventCatchupAppTests.xctest */,
 				531B1CA621240D5700661098 /* EventContext.framework */,
 				531B1CAE21240D5800661098 /* EventContextTests.xctest */,
+				53EDB4EB2132AFCF00A44D55 /* Shared.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,9 +236,11 @@
 		531B1CA721240D5700661098 /* EventContext */ = {
 			isa = PBXGroup;
 			children = (
-				531B1CCD21240DFD00661098 /* Infra */,
-				531B1CCC21240DF700661098 /* UseCase */,
+				53EDB4DB2132A11700A44D55 /* EventComponent.swift */,
+				53EDB4DD2132A12200A44D55 /* EventComponentType.swift */,
 				531B1CCB21240DF200661098 /* Domain */,
+				531B1CCC21240DF700661098 /* UseCase */,
+				531B1CCD21240DFD00661098 /* Infra */,
 				531B1CA821240D5700661098 /* EventContext.h */,
 				531B1CA921240D5700661098 /* Info.plist */,
 			);
@@ -271,6 +315,8 @@
 		531B1CCB21240DF200661098 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				53EDB4E42132AA2D00A44D55 /* Event.swift */,
+				53EDB4FB2132E4EE00A44D55 /* EventRepositoryType.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -278,6 +324,8 @@
 		531B1CCC21240DF700661098 /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				53EDB4E12132A9B600A44D55 /* Impl */,
+				53EDB4DF2132A9B300A44D55 /* GetEventInfoUseCaseType.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -285,6 +333,7 @@
 		531B1CCD21240DFD00661098 /* Infra */ = {
 			isa = PBXGroup;
 			children = (
+				53EDB4FD2132E50200A44D55 /* EventRepository.swift */,
 			);
 			path = Infra;
 			sourceTree = "<group>";
@@ -302,6 +351,25 @@
 			children = (
 			);
 			path = Converter;
+			sourceTree = "<group>";
+		};
+		53EDB4E12132A9B600A44D55 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				53EDB4E22132A9C300A44D55 /* GetEventInfoUseCase.swift */,
+			);
+			path = Impl;
+			sourceTree = "<group>";
+		};
+		53EDB4EC2132AFCF00A44D55 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				53EDB4F82132AFEB00A44D55 /* Identifier.swift */,
+				53EDB4F72132AFEB00A44D55 /* Identifierable.swift */,
+				53EDB4ED2132AFCF00A44D55 /* Shared.h */,
+				53EDB4EE2132AFCF00A44D55 /* Info.plist */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		6A4133456FA5A9FA7A34BDE1 /* Frameworks */ = {
@@ -341,6 +409,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53EDB4E62132AFCF00A44D55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EDB4EF2132AFCF00A44D55 /* Shared.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -359,6 +435,7 @@
 			);
 			dependencies = (
 				531B1CBA21240D5800661098 /* PBXTargetDependency */,
+				53EDB4F12132AFCF00A44D55 /* PBXTargetDependency */,
 			);
 			name = EventCatchupApp;
 			productName = EventCatchupApp;
@@ -425,6 +502,24 @@
 			productReference = 531B1CAE21240D5800661098 /* EventContextTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		53EDB4EA2132AFCF00A44D55 /* Shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53EDB4F42132AFCF00A44D55 /* Build configuration list for PBXNativeTarget "Shared" */;
+			buildPhases = (
+				53EDB4E62132AFCF00A44D55 /* Headers */,
+				53EDB4E72132AFCF00A44D55 /* Sources */,
+				53EDB4E82132AFCF00A44D55 /* Frameworks */,
+				53EDB4E92132AFCF00A44D55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shared;
+			productName = Shared;
+			productReference = 53EDB4EB2132AFCF00A44D55 /* Shared.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -444,10 +539,15 @@
 					};
 					531B1CA521240D5700661098 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					531B1CAD21240D5800661098 = {
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = 531B1C7D2123CFA400661098;
+					};
+					53EDB4EA2132AFCF00A44D55 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -468,6 +568,7 @@
 				531B1C912123CFA600661098 /* EventCatchupAppTests */,
 				531B1CA521240D5700661098 /* EventContext */,
 				531B1CAD21240D5800661098 /* EventContextTests */,
+				53EDB4EA2132AFCF00A44D55 /* Shared */,
 			);
 		};
 /* End PBXProject section */
@@ -499,6 +600,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		531B1CAC21240D5800661098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53EDB4E92132AFCF00A44D55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -679,6 +787,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53EDB4DE2132A12200A44D55 /* EventComponentType.swift in Sources */,
+				53EDB4DC2132A11700A44D55 /* EventComponent.swift in Sources */,
+				53EDB4FC2132E4EE00A44D55 /* EventRepositoryType.swift in Sources */,
+				53EDB4E02132A9B300A44D55 /* GetEventInfoUseCaseType.swift in Sources */,
+				53EDB4FE2132E50200A44D55 /* EventRepository.swift in Sources */,
+				53EDB4E32132A9C300A44D55 /* GetEventInfoUseCase.swift in Sources */,
+				53EDB4E52132AA2D00A44D55 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,6 +802,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				531B1CB621240D5800661098 /* EventContextTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53EDB4E72132AFCF00A44D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EDB4FA2132AFEB00A44D55 /* Identifier.swift in Sources */,
+				53EDB4F92132AFEB00A44D55 /* Identifierable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,6 +836,11 @@
 			isa = PBXTargetDependency;
 			target = 531B1CA521240D5700661098 /* EventContext */;
 			targetProxy = 531B1CB921240D5800661098 /* PBXContainerItemProxy */;
+		};
+		53EDB4F12132AFCF00A44D55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53EDB4EA2132AFCF00A44D55 /* Shared */;
+			targetProxy = 53EDB4F02132AFCF00A44D55 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -855,6 +984,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5FFAA187213B169CA33EF23A /* Pods-EventCatchupApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
@@ -875,6 +1005,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 379290FE07EA86C11878BD9F /* Pods-EventCatchupApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
@@ -937,6 +1068,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE2BD014638033A7F975315D /* Pods-EventContext.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -955,6 +1087,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.kamui.EventContext;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -966,6 +1099,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BDC344F275C6085A3BFCB285 /* Pods-EventContext.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1031,6 +1165,65 @@
 			};
 			name = Release;
 		};
+		53EDB4F52132AFCF00A44D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Shared/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.kamui.Shared;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53EDB4F62132AFCF00A44D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Shared/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.kamui.Shared;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1075,6 +1268,15 @@
 			buildConfigurations = (
 				531B1CC221240D5800661098 /* Debug */,
 				531B1CC321240D5800661098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53EDB4F42132AFCF00A44D55 /* Build configuration list for PBXNativeTarget "Shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EDB4F52132AFCF00A44D55 /* Debug */,
+				53EDB4F62132AFCF00A44D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
