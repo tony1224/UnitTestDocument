@@ -211,10 +211,10 @@
 		531B1C802123CFA400661098 /* EventCatchupApp */ = {
 			isa = PBXGroup;
 			children = (
-				531B1C812123CFA400661098 /* AppDelegate.swift */,
 				531B1CC421240D6F00661098 /* Search */,
-				531B1CC521240D7700661098 /* Browsing */,
-				531B1CC621240DB900661098 /* Resources */,
+				86728FCB213D6FC6005F2C87 /* Event */,
+				86728FC7213D6F15005F2C87 /* Resources */,
+				531B1C812123CFA400661098 /* AppDelegate.swift */,
 				531B1C832123CFA400661098 /* ViewController.swift */,
 				531B1C852123CFA400661098 /* Main.storyboard */,
 				531B1C882123CFA600661098 /* Assets.xcassets */,
@@ -259,27 +259,11 @@
 		531B1CC421240D6F00661098 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				531B1CCE21240E0A00661098 /* BindingData */,
-				531B1CC821240DDA00661098 /* ViewModel */,
+				86728FC9213D6FB0005F2C87 /* BindingData */,
+				86728FC8213D6F9F005F2C87 /* ViewModel */,
 				531B1CC721240DD200661098 /* ViewController */,
 			);
 			path = Search;
-			sourceTree = "<group>";
-		};
-		531B1CC521240D7700661098 /* Browsing */ = {
-			isa = PBXGroup;
-			children = (
-				531B1CCA21240DE900661098 /* ViewModel */,
-				531B1CC921240DE000661098 /* ViewController */,
-			);
-			path = Browsing;
-			sourceTree = "<group>";
-		};
-		531B1CC621240DB900661098 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		531B1CC721240DD200661098 /* ViewController */ = {
@@ -289,27 +273,6 @@
 				531B1CD22124171100661098 /* SearchViewController.storyboard */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		531B1CC821240DDA00661098 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		531B1CC921240DE000661098 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		531B1CCA21240DE900661098 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		531B1CCB21240DF200661098 /* Domain */ = {
@@ -336,21 +299,6 @@
 				53EDB4FD2132E50200A44D55 /* EventRepository.swift */,
 			);
 			path = Infra;
-			sourceTree = "<group>";
-		};
-		531B1CCE21240E0A00661098 /* BindingData */ = {
-			isa = PBXGroup;
-			children = (
-				531B1CCF21240E1000661098 /* Converter */,
-			);
-			path = BindingData;
-			sourceTree = "<group>";
-		};
-		531B1CCF21240E1000661098 /* Converter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Converter;
 			sourceTree = "<group>";
 		};
 		53EDB4E12132A9B600A44D55 /* Impl */ = {
@@ -381,6 +329,50 @@
 				7501A72563162CCF6BB9388E /* Pods_EventContextTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86728FC7213D6F15005F2C87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		86728FC8213D6F9F005F2C87 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		86728FC9213D6FB0005F2C87 /* BindingData */ = {
+			isa = PBXGroup;
+			children = (
+				86728FCA213D6FBB005F2C87 /* Converter */,
+			);
+			path = BindingData;
+			sourceTree = "<group>";
+		};
+		86728FCA213D6FBB005F2C87 /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Converter;
+			sourceTree = "<group>";
+		};
+		86728FCB213D6FC6005F2C87 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				86728FCC213D6FC6005F2C87 /* ViewController */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		86728FCC213D6FC6005F2C87 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		B6A04BD91FAD1881AF8A1A84 /* Pods */ = {
@@ -986,9 +978,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EventCatchupApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1007,9 +1001,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EventCatchupApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1030,6 +1026,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EventCatchupAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1051,6 +1048,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EventCatchupAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1079,6 +1077,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = EventContext/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1110,6 +1109,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = EventContext/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1132,6 +1132,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EventContextTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1152,6 +1153,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EventContextTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1179,6 +1181,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Shared/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1209,6 +1212,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Shared/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
